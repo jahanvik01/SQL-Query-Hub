@@ -102,3 +102,6 @@ ALL: Returns true if all the subquery values meet the condition.
 Overview: Extract specific parts of a date, time, or timestamp. Content:
 Content:
 EXTRACT(): Retrieves a specific part of the date or time, such as the year, month, day, hour, etc.
+
+15.Window Functions
+Window functions in SQL are advanced functions that perform calculations across a set of table rows related to the current row without collapsing the result set into a single row. They allow for powerful analytical queries by applying aggregate functions and computations over a defined range of rows, or "window," within the dataset. This makes them ideal for tasks like ranking, calculating running totals, and finding percentiles, providing detailed insights and summaries within the context of the dataset.
